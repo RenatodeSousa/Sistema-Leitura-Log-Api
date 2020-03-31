@@ -1,5 +1,4 @@
 package com.log.controller;
-import com.log.DTO.LogDTO;
 import com.log.model.Log;
 import com.log.service.LogService;
 import org.springframework.beans.factory.annotation.Autowired;

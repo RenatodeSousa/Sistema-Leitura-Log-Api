@@ -65,7 +65,7 @@ public class LogService  {
         log.setDate(LocalDateTime.parse(lista.get(0), format));
         log.setIp(lista.get(1).replace(".","").trim());
         log.setRequest(lista.get(2).replace("\"", ""));
-        log.setStatus(Integer.parseInt(lista.get(3)));
+        log.setStatus(Long.parseLong(lista.get(3)));
         log.setUserAgent(lista.get(4).replace("\"", ""));
         listaLog.add(log);
 
